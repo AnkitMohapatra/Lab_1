@@ -2,13 +2,10 @@
 using namespace std;
 
 main() {
-float a,b,c,d;
+float a;
 cout << "Radius : ";
 cin >> a;
-b = 2 * a;
-c = 2 * 3.14 * a;
-d = 3.14 * a * a;
-cout << "Diameter : " << b << "\n";
-cout << "Circumference : " << c << "\n";
-cout << "Area : " << d;
+cout << "Diameter : " << 2 * a << "\n";
+cout << "Circumference : " << 2 * 3.14 * a << "\n";
+cout << "Area : " << 3.14 * a * a;
 }
