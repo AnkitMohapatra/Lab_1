@@ -9,5 +9,13 @@ cout << "Your integer is : " << a << "\n";
 float b;
 cout << "Enter a decimal : ";
 cin >> b;
-cout << "The decimal is : " << b;
+cout << "The decimal is : " << b << "\n";
+char c;
+cout << "Enter a character : "; 
+cin >> c;
+cout << "The character is : " << c << "\n";
+bool d;
+cout << "Enter a boolean : ";
+cin >> d;
+cout << "The boolean is : " << d;
 }
