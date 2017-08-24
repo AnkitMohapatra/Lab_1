@@ -2,11 +2,10 @@
 using namespace std;
 
 main() {
-float a,b,c;
+float a,b;
 cout << "Length = ";
 cin >> a;
 cout << "Breadth = ";
 cin >> b;
-c = 2 * (a + b);
-cout << "Perimeter = " << c;
+cout << "Perimeter = " << 2 * (a + b);
 }
