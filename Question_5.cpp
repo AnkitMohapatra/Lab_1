@@ -7,6 +7,5 @@ cout << "Length = ";
 cin >> a;
 cout << "Breadth = ";
 cin >> b;
-c = a * b;
-cout << "Area = " << c;
+cout << "Area = " << a * b;
 }
