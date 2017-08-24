@@ -2,19 +2,14 @@
 using namespace std;
 
 main() {
-int a,b,c,d,e,f,g;
+int a,b;
 cout << "a = ";
 cin >> a;
 cout << "b = ";
 cin >> b;
-c = a + b;
-cout << "Sum = " << c << "\n";
-d = a - b;
-cout << "Subtraction = " << d << "\n";
-e = a * b;
-cout << "Multiplication = " << e << "\n";
-f = a / b;
-cout << "Quotient = " << f << "\n";
-g = a % b;
-cout << "Remainder = " << g;
+cout << "Sum = " << a + b << "\n";
+cout << "Subtraction = " << a - b << "\n";
+cout << "Multiplication = " << a * b << "\n";
+cout << "Quotient = " << a / b << "\n";
+cout << "Remainder = " << a % b;
 }
