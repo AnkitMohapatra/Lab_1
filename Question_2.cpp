@@ -2,11 +2,10 @@
 using namespace std;
 
 main() {
-int a,b,c;
+int a,b;
 cout << "a = ";
 cin >> a;
 cout << "b = ";
 cin >> b;
-c = a + b;
-cout << "Sum = " << c;
+cout << "Sum = " << a + b;
 }
