@@ -1,11 +1,12 @@
 #include <iostream>
 using namespace std;
 
-main() {
+int main() {
 int a,b;
 cout << "a = ";
 cin >> a;
 cout << "b = ";
 cin >> b;
 cout << "Sum = " << a + b;
+return 0;
 }
