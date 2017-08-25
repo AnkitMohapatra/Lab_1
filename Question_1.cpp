@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-main() {
+int main() {
 int a;
 cout << "Enter a integer : ";
 cin >> a;
@@ -18,4 +18,5 @@ bool d;
 cout << "Enter a boolean : ";
 cin >> d;
 cout << "The boolean is : " << d;
+return 0;
 }
